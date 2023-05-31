@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="dscription" content="" />
+    <meta name="keywords" content="html, css, js," />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="icon" href="" />
+    <title>ID Card</title>
+  </head>
+
+  <body>
+    <div class="container-enter">
+      <h1>ID Card</h1>
+
+      <div class="box-all">
+        <div class="section-img-submit">
+          <div class="info-img"><input type="file" accept="imges/*" /></div>
+          <div class="submit-box"><button id="submit">ارسال</button></div>
+        </div>
+
+        <div class="section-enter-info">
+          <div class="info">
+            <div class="box-input">
+              <input
+                id="first"
+                type="text"
+                required
+              />
+              <label>الاسم الاول</label>
+            </div>
+
+            <div class="box-input">
+              <input
+                id="last"
+                type="text"
+                required
+              />
+              <label>الاسم الثاني</label>
+            </div>
+
+            <div class="box-input">
+              <input id="address" type="text" required />
+              <label>العنوان</label>
+            </div>
+
+          </div>
+          <div class="info">
+            <div class="box-input">
+              <input
+                id="history"
+                type="text"
+                required
+              />
+              <label>تاريخ ميلادك</label>
+            </div>
+
+            <div class="box-input">
+              <input id="code" type="text" required />
+              <label>كود المصنع</label>
+            </div>
+
+            <div class="box-input">
+              <input id="job" type="text" required />
+              <label>الوظيفة</label>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="section-enter-info">
+            <div class="info">
+                     <div class="box-input">
+                    <input id="marital" type="text" required />
+                    <label>الحالة الاجتماعية</label>
+                </div>
+    
+                <div class="box-input">
+                    <input id="gender" type="text" required />
+                    <label>الجنس</label>
+                </div>
+    
+                <div class="box-input">
+                    <input id="Debt" type="text" required />
+                    <label>الدين</label>
+                </div>
+              </div>
+
+              <div class="info">
+                <div class="box-input">
+                    <input id="ID" type="number" required />
+                    <label>رقم البطاقة</label>
+                  </div>
+    
+                  <div class="box-input">
+                    <input
+                      id="release"
+                      type="text"
+                      required
+                    />
+                    <label>تاريخ الصدور</label>
+                  </div>
+    
+                <div class="box-input">
+                    <input id="valid" type="text" required />
+                    <label>صالحة</label>
+                </div>
+              </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="container-other-face">
+        <div class="box-release-number">
+          <div class="job">
+            <span class="ID-number-other"></span>
+            <strong id="job"></strong>
+          </div>
+
+          <div>
+            <span class="history-release"></span>
+          </div>
+        </div>
+
+        <div class="info-other">
+          <div class="img-one">
+            <img src="OIG20.jfif" />
+          </div>
+
+          <div>
+            <span class="marital-status"></span>
+          </div>
+
+          <div>
+            <span class="Debt"></span>
+          </div>
+
+          <div>
+            <span class="gender"></span>
+          </div>
+
+          <div class="img-two">
+            <img src="22.jfif" />
+          </div>
+        </div>
+        <div class="valid-box">
+          <span>1</span>
+          <span class="valid"></span>
+        </div>
+
+        <div class="box-QR">
+          <img src="My_Gallery.png" />
+        </div>
+      </div>
+
+      <span class="arrow"><img src="arrow.jfif" /></span>
+      <div class="box-hidden">
+        <span class="legend">
+          <h2>جمهورية مصر العربية</h2>
+          <h3>بطاقة تحقيق الشخصية</h3>
+        </span>
+
+        <div class="container-info">
+          <div class="img-person"><img src="OIG3.jfif" /></div>
+          <div class="info-one">
+            <ul class="info-box">
+              <li class="first-name"></li>
+              <li class="second-name"></li>
+              <li>
+                <a
+                  class="address"
+                  href="https://goo.gl/maps/upB1FnZ9QLBBCe6L8"
+                  target="_blank"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="info-top-footer">
+          <div class="number"></div>
+          <div class="history"></div>
+        </div>
+        <div class="footer">
+          <span class="code"></span>
+        </div>
+      </div>
+    </div>
+    <script src="jsss.js"></script>
+  </body>
+</html>
